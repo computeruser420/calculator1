@@ -1,0 +1,19 @@
+.btn{
+  border: 1px solid #ccc;
+  height: 50px;
+  width: 50px;
+  margin-bottom: 5px;
+
+}
+
+.btn:focus,.btn:active {
+   outline: none;
+   box-shadow: none;
+}
+
+#screen1 {
+  width: 215px;
+  height: 50px;
+  background-color: #ccc;
+  margin-bottom: 5px;
+}

@@ -2,14 +2,43 @@
 <html>
   <head>
 
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/bootstrap-theme.css" rel="stylesheet" type="text/css">
+      <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.2.1.js"></script>
     <script src="js/scripts.js"></script>
     <meta charset="utf-8">
-    <title></title>
+    <title>CALCULATOR</title>
   </head>
-  <body>
+    <body>
+      <div class="container">
+        <div id="screen1">&nbsp;<span id="screen"></span> </div>
+        <!-- <button type="button" class="btn btn-secondary" id="(">(</button>
+        <button type="button" class="btn btn-secondary" id=")">)</button>
+        <button type="button" class="btn btn-secondary" id="%">%</button> -->
+        <button type="button" class="btn btn-danger" id="clear">C</button><br>
 
+        <button type="button" class="btn btn-light num" id="7">7</button>
+        <button type="button" class="btn btn-light num" id="8">8</button>
+        <button type="button" class="btn btn-light num" id="9">9</button>
+        <button type="button" class="btn btn-secondary num" id="/">/</button><br>
+
+        <button type="button" class="btn btn-light num" id="4">4</button>
+        <button type="button" class="btn btn-light num" id="5">5</button>
+        <button type="button" class="btn btn-light num" id="6">6</button>
+        <button type="button" class="btn btn-secondary num" id="*">*</button><br>
+
+        <button type="button" class="btn btn-light num" id="1">1</button>
+        <button type="button" class="btn btn-light num" id="2">2</button>
+        <button type="button" class="btn btn-light num" id="3">3</button>
+        <button type="button" class="btn btn-secondary num" id="-">-</button><br>
+
+        <button type="button" class="btn btn-light num" id="0">0</button>
+        <button type="button" class="btn btn-light num" id=".">.</button>
+        <button type="button" class="btn btn-light num" id="+">+</button>
+        <button type="button" class="btn btn-secondary evaluate" id="=">=</button><br>
+
+
+      </div>
   </body>
 </html>
